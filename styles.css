@@ -1,0 +1,53 @@
+H1{
+    text-align: center;
+    color: brown;
+     margin-top: 200px;
+}
+body{
+    background-color: bisque;
+}
+HTML CSSResult Skip Results Iframe
+EDIT ON
+#circle-btn { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.btn-container {
+  position: relative;  
+}
+
+button {
+  border: 0;
+  border-radius: 50px;
+  color: white;
+  background: #5f55af;
+  padding: 15px 20px 16px 60px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #f72585 50%, #5f55af 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition:all 2s ease;
+  margin-left: 550px;
+}
+
+svg {
+  background: #f72585;
+  padding: 8px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0%;
+  margin-left: 550px;
+}
+
+button:hover {
+   background-position: left bottom;
+}
+.footer{
+    text-align: center;
+    color: brown;
+    margin-top: 200px;
+}
